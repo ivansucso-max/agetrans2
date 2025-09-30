@@ -10,3 +10,129 @@ body {
 img {
     max-width: 100%;
 }
+
+.container{
+    width: 90rem;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url("../img/site-header-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    height: 100vh; /** view height */
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand{
+    flex-basis: 10%;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #053477;
+    margin-left: 1.2rem;
+}
+
+.nav-items li a:hover {
+    background-color: #053477;
+    padding: .5rem .6rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 1.2rem;
+}
+
+.title{
+    padding-top: 20rem;    
+}
+
+.title h1{
+    margin: 0;
+    font-size: 5.8rem;
+    color: #053477;
+}
+
+.nuestro-equipo h2{
+    font-size: 2.5rem;
+    color: #F75F1C;
+    text-align: center;
+}
+
+.equipo{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.card-img{
+    flex-basis: 20%;
+}
+
+.card-content{
+    flex-basis: 80%;
+    padding: 0 2rem;
+}
+
+.card-content h3{
+    text-align: center;
+    color: #F75F1C;
+}
+
+.card-content p{
+    text-align: center;
+    color: #053477;
+}
+
+.barra{
+    background-color: #F75F1C;
+}
+
+.iconos{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.iconos li {
+    flex-basis: 2rem;
+    padding: .5rem 0;
+}
+
+.footer-content{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.footer-content li{
+    flex-basis: 20%;
+}
+
+.subtitle{
+    border-bottom: solid #F75F1C .1rem;
+    padding-bottom: 1rem;
+}
